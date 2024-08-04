@@ -7,7 +7,10 @@ function checkOddEven() {
         
     }
     const isEven = number % 2 === 0;
-    result.textContent = isEven ? 'The number is even.' : 'The number is odd.';
+    result.textContent = result.textContent = isEven 
+    ? `The number ${number} is even.` 
+    : `The number ${number} is odd.`;
+
 }
 function calculateFactorial() {
     const number = parseInt(document.getElementById('factorialInput').value);
@@ -35,5 +38,5 @@ function checkPalindrome() {
     const reversedStr = cleanedStr.split('').reverse().join('');
     const isPalindrome = cleanedStr === reversedStr;
 
-    result.textContent = isPalindrome ? 'The string is a palindrome.' : 'The string is not a palindrome.';
+    result.textContent = isPalindrome ? `'The string ${str} is a palindrome.`: `The string ${str} is not a palindrome.`;
 }

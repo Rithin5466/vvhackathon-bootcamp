@@ -1,25 +1,30 @@
 /* General styling for the body and container */
 body {
     font-family: Arial, sans-serif;
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
     height: 100vh;
-    margin: 0;
-    background-color: white;
+    margin: 10px;
+    border:#333,solid,skyblue;
+    background-colorrgb:hover(151, 144, 144);
+    padding-left: 500px;
 }
 
-.container {
+.container:hover {
     text-align: center;
-    background: #fff;
+    background: #35abce;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     max-width: 500px;
     width: 100%;
+    margin: 20px;
+
+
 }
 
-/* Heading styling for each form */
+
 h1 {
     margin-bottom: 1rem;
     font-size: 24px;
