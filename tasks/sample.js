@@ -119,18 +119,15 @@
 // Object.keys(teams).forEach(val=>{
 //     console.log(val)
 // }); 
-function sum(){
+// 
+// const getData = async()=>{
 
 
-     return 20+30
-}
-console.log(sum())
-const add=function()
-{
-      return 20+30;
-}
-console.log(add());
+//     var data = await fetch("https://chatappserver-zop9.onrender.com/users")
+
+//     return data.body
+
+// }
 
 
-const adds=()=>{return 21+31}
-console.log(adds())
+// console.log(getData())
